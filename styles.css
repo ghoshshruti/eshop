@@ -18,6 +18,9 @@ header {
     font-size: 1.5rem;
     font-weight: bold;
 }
+.navbar .nav-links{
+    margin-left: auto;
+}
 
 .navbar .nav-links {
     list-style: none;
