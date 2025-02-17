@@ -40,7 +40,7 @@ header {
 
 .landing-section {
     height: 100vh;
-    background: url('https://itseeze.com/_webedit/cached-images/3214-0-792-1736-8416-6312-1132.png') no-repeat center center/cover;
+    background: url('https://img.pikbest.com/ai/illus_our/20230427/24cd8065f5e3a91ab454f83b43762f61.jpg!w700wp') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +99,9 @@ section {
 .resources-section {
     background-color: #f9f9f9;
 }
-
+.contact-section{
+     background:url('https://img.freepik.com/free-vector/scented-candles-poster_1284-73257.jpg') no-repeat center center/cover;
+}
 .contact-section form {
     max-width: 600px;
     margin: 0 auto;
