@@ -1,0 +1,121 @@
+
+<!-- All the students are required to submit the report of their hosted website.
+   - scope of the website
+   -minimum 5 pages ,contains images 
+   -traffic on website should be there
+
+Improve your website by adopting following strategies
+1. Minification
+2. I'mCss
+3. Shortend CSS properties
+4. Optimizing images
+
+
+Comparative Analysis of website
+1. Take one testing platform 
+2. Test and analyse it on various performance matrix
+ie. FCP,LCP,TFB ,Full load time , waiting time etc (By taking screenshots from step 1 to last ) 
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Welcome to E-Shop</title>
+     <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+     <header>
+         <nav class="navbar">
+             <div class="logo">E-Shop</div>
+             <ul class="nav-links">
+                 <li><a href="#home">Home</a></li>
+                 <li><a href="#about">About Us</a></li>
+                 <li><a href="#services">Services/Products</a></li>
+                 <li><a href="#resources">Resources</a></li>
+                 <li><a href="#contact">Contact Us</a></li>
+             </ul>
+         </nav>
+     </header>
+ 
+     <section id="home" class="landing-section">
+         <div class="hero-content">
+             <h1>Welcome to E-Shop</h1>
+             <p>Your one-stop shop for all things amazing.</p>
+             <a href="#services" class="btn-primary">Shop Now</a>
+         </div>
+     </section>
+ 
+     <section id="about" class="about-section">
+         <h2>About Us</h2>
+         <p>At E-Shop, we are passionate about bringing you the best quality products at unbeatable prices. Learn more about our journey and values.</p>
+     </section>
+ 
+     <section id="services" class="services-section">
+         <h2>Scented Candles</h2>
+         <div class="product-grid">
+             <div class="product-item">
+                <img src="./lotus cand.jpeg" alt="shape">
+                 <h3>candles</h3>
+                 <p>Lotus candles.</p>
+             </div>
+             <div class="product-item">
+                <img src="./lotus cand.jpeg" alt="shape">
+                 <h3>candles</h3>
+                 <p>Lotus candles.</p>
+             </div>
+             <div class="product-item">
+                <img src="./lotus cand.jpeg" alt="shape">
+                 <h3>Candles</h3>
+                 <p>lotus candles.</p>
+             </div>
+         </div>
+     </section>
+     <section id="services" class="services-section">
+        <h2>Preserve Memories</h2>
+        <div class="product-grid">
+            <div class="product-item">
+               <img src="./flowerdye.jpg" alt="shape" style="width: 250px; height:250px;">
+                <h3>Varmala Presv</h3>
+                <p>Weeding Varmala for memories forever.</p>
+            </div>
+            <div class="product-item">
+               <img src="./baby.jpg" alt="shape" style="width: 250px; height:250px;">
+                <h3>Born baby</h3>
+                <p>Born baby items memories.</p>
+            </div>
+            <div class="product-item">
+               <img src="./weddye.jpeg" alt="shape" style="width: 250px; height:250px;">
+                <h3>weeding flowers</h3>
+                <p>Special flowers in weeding memories.</p>
+            </div>
+        </div>
+    </section>
+ 
+     <section id="resources" class="resources-section">
+         <h2>Resources</h2>
+         <p>Explore our guides and resources to help you make the most out of your shopping experience.</p>
+     </section>
+ 
+     <section id="contact" class="contact-section">
+         <h2>Contact Us</h2>
+         <form action="#" method="post">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" required>
+ 
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required>
+ 
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" rows="4" required></textarea>
+ 
+             <button type="submit">Send Message</button>
+         </form>
+     </section>
+ 
+     <footer>
+         <p>&copy; 2025 E-Shop. All rights reserved.</p>
+     </footer>
+ </body>
+ </html>
+ 
